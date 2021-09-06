@@ -1,0 +1,63 @@
+html {
+    font-size: 13px;
+}
+
+body {
+    background-image: url("headphones.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: dimgray;
+    font-size: 1.4rem;
+    margin: 0.25rem 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.player {
+    background: rgba(255,255,240, 0.3);
+    padding: 1.3rem;
+    border-radius: 2rem;
+}
+
+#controls {
+    border: 1px lightslategray solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+}
+
+.controls_wrapper {
+    cursor: pointer;
+    color: dimgrey;
+    font-size: 2.5rem;
+}
+
+#currentSong {
+    overflow: hidden;
+}
+
+#songList {
+    overflow: hidden;
+    display: inline-block;
+}
+
+#songList ol li {
+     text-align: left;
+}
+
+li {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+ol li:hover {
+    background: skyblue;
+    border-radius: 1rem;
+}
+
+progress {
+    width: 73%;
+}
